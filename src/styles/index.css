@@ -10,3 +10,82 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background-color: rgb(250, 250, 250);
+}
+ul{
+    width: 450px;
+    margin: auto;
+    background-color: white;
+    padding: 0;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.080);
+}
+ul li {
+    border: 1px solid rgb(240, 240, 252);
+    list-style: none;
+    padding: 20px 20px 10px 30px;
+    display:block;
+    font-size: 20px;
+    text-align: left;
+}
+input{
+    text-align: center;
+    border: none;
+    width: 100%;
+}
+input:focus{
+    outline: none;
+}
+h1{
+    text-align: center;
+    color: rgb(234, 23, 136);
+    font-weight: lighter;
+    font-size: 80px;
+}
+.remainingItems{
+    text-align:center;
+    margin-left: 400px;
+    border: 1px solid rgb(240, 240, 252);
+    width: 400px;
+    height: 45px;
+    padding: 5px 5px 5px 15px;
+    font-size: 15px;
+    font-weight: lighter;
+    background-color: white;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.080);
+}
+.remainingItems:before{
+    box-shadow: none;
+    text-align: center;
+}
+span{
+    opacity: 0;
+    
+}
+span:hover{
+    color: rgb(87, 55, 250);
+    }
+li:hover span{
+    opacity: 1;
+
+}
+
+::placeholder{
+    color: rgb(180, 180, 180);
+    font-weight: lighter;
+}
+.input{
+    width: 450px;
+    margin: auto;
+    background-color: white;
+    padding: 0;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.080);
+    border: 1px solid rgb(240, 240, 252);
+    list-style: none;
+    padding: 10px 10px 10px 30px;
+    display:list-item;
+    font-size: 20px;
+}
+.divOfLis{
+    width: 100%;
+}
